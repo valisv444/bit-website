@@ -1,0 +1,183 @@
+html, body {
+    margin: 0px;
+    background-color: #1E1A2A;
+    text-align: center;
+}
+
+
+h1 {
+    color: #ffc600;
+    background-color: #6d4a8d ;
+    font-family: "Cormorant Garamond", serif;
+    display: inline-block;
+    margin: 40px auto;
+    border: 4px solid #ffc600;
+    border-radius: 8px;
+    padding: 10px 20px;
+    
+}
+
+hr {
+    color: #daa520  ;
+    background-color:#daa520  ;
+    height: 2px;
+    border: none;
+}
+
+nav a {
+    color: #8F6C82 ;
+}
+
+.cat-photo {
+    margin: 70px;
+    width: 400px;
+    border-radius: 6px;
+}
+
+h2 {
+    color: #4C4A72;
+   font-family: "marcellus", serif;
+}
+
+p {
+    color: #B59CC2;
+    
+}
+
+
+.photos-index {
+  display: flex;
+   justify-content: center;
+   height: 400px;
+   gap: 10px;
+}
+
+.video-clara {
+    margin: 80px;
+}
+
+.iframe {
+    margin: 60px;
+}
+
+.moon-photo  {
+    margin: 70px;
+}
+
+.table-about-me {
+width: 90%;
+ border-collapse: collapse;
+ border: solid yellow ;
+ font-size: 30px;
+ margin-bottom: 80px;
+ 
+}
+
+.table-about-me th, .table-about-me tr {
+
+    border:6px solid #6D4A8D ;
+    background-color: #8B768C;
+    font-family: "play fair display";
+}
+
+label {
+    color: #e6c3f3;
+}
+
+dl {
+    background-color: #d1b3ff;
+    display: inline-block;
+}
+
+dt, dd {
+    display: block;
+    text-align: center;
+    margin:0 auto;
+    padding: 20px;
+}
+
+.dracula  {
+    display: flex;
+    align-items: center;
+   margin-left: 20px;
+}
+
+.dracula p {
+    margin-left: 20px;
+}
+
+.yellow {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.yellow p {
+    margin-left: 20px;
+}
+
+.marooned {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.marooned p {
+    margin-left: 20px;
+}
+
+.scotland {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.scotland p {
+    margin-left: 20px;
+}
+
+.metal {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.metal p {
+    margin-left: 20px;
+}
+
+.goth {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.goth p {
+margin-left: 20px;
+}
+.cinema {
+   display: flex;
+   align-items: center;
+   margin-left: 20px;
+}
+
+.cinema p {
+    margin-left: 20px;
+}
+
+.trailer {
+    margin-top: 20px;
+    width: 500px;
+    height: 500px;
+}
+
+ul {
+    color: #B59CC2;
+}
+
+li {
+    color: #8F6C82;
+}
+ h3 {
+    color: #d93bd1;
+ }

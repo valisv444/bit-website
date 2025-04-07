@@ -1,65 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal website</title>
-    <link rel="shortcut icon" href="Assets/Dragon.logo.jpg" type="image/x-icon">
-    
-</head>
-<body>
+    <link
+      rel="shortcut icon"
+      href="./assets/favicon-1.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=IM+Fell+English+SC&family=Marcellus&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
     <header id="top">
-        <h1>About me, Valentina</h1>
+      <h1>About me, Andrea</h1>
     </header>
-     <hr>
-     <hr>
+    <hr />
+    <hr />
     <nav>
-        <table width="100%">
-         <tr>
-            <td align="center"><a href="index.html">Home</a></td> 
-            <td align="center"><a href="personalinformationaboutme.html">Personal information about me</a></td> 
-            <td align="center"><a href="aboutBITandmystudies.html">About BIT and my studies</a></td> 
-            <td align="center"><a href="contact.html">Contact me</a></td> 
-            <td align="center"><a href="myinterests.html">My interests</a></td>
-            <td align="center"><a href="#bottom">Bottom</a></td>
-         </tr> 
-        
-        </table>
+      <table width="100%">
+        <tr>
+          <td align="center"><a href="index.html">Home</a></td>
+          <td align="center">
+            <a href="personalinformationaboutme.html"
+              >Personal information about me</a
+            >
+          </td>
+          <td align="center"><a href="contact.html">Contact me</a></td>
+          <td align="center"><a href="myinterests.html">My interests</a></td>
+          <td align="center"><a href="#bottom">Bottom</a></td>
+        </tr>
+      </table>
     </nav>
-     <hr>
-     <hr>
+
+    <hr />
+    <hr />
+
     <main>
-      <img src="./assets/photo-profile.png" alt="My profile picture">
+      <img src="./assets/gato-1.jpg" class="cat-photo" alt="My profile picture" />
 
       <section>
-      <h2>What will you find on this site?</h2>
-      <p>In this website, you will find all the necessary, important and curious information about the BIT student Valentina Moreno. In each of the sections of the menu there is a section with a lot of information about me. You will find from my personal details to why I am studying programming. Welcome</p>
+        <h2>What will you find on this site?</h2>
+        <p>
+          Here you can find personal information about me, my interests, how to contact me and some of my favourite pictures. Welcome
+        </p>
       </section>
     </main>
-     <hr>
+
+    <hr />
+
     <aside>
       <h2>My first project</h2>
-      <p>As you can see, this is a website. And it's my first project where I've put all the knowledge I've learnt in class and what I've learnt outside of it by other means, so that everything I need to do here is done. I'm using all my beginner's knowledge here.</p>
+
+       <aside class="photos-index">
+       <img src="./assets/purpple-1.jpg" alt="purple stained glass windows of a cathedral">
+       <img src="./assets/purpple-2.jpg" alt="blue background with yellow suns">
+       <img src="./assets/purpple-3.jpg" alt="Messy table with crystal ball">
+      </aside>
+
+       <hr>
+
+      <aside>
+        <section class="video-clara">
+        <h2>Clara bow's eyes</h2>
+        <video src="./assets/clara-1.mp4" controls></video>
+       </section>
+
+       <section class="audio-lovesong">
+        <h2>Lovesong-The cure</h2>
+        <audio src="./assets/The Cure - Lovesong.mp3" controls></audio>
+      </section>
+
+      <section class="iframe">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uWAhd4KkVUU?si=KGkZnydwXGh8dIEz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </section>
+
+      </aside>
+      
+     <!--<form></form>-->
+     <!--<textarea></textarea>-->
+      
     </aside>
-     
+
     <hr>
 
-    <article>
-      <h2>Extra</h2>
-      <p>Despite all the information about me on this website and its sections, I wanted to leave some important research that deserves to be here. A good step towards knowing more.</p>
-      <a href="https://www.codeplatoon.org/brief-fun-history-coding-beginnings/" target="_blank"rel="noopener noreferrer">Here</a>
-      <hr>
-
-      <img src="./assets/coding.png" alt="Coding" height="200px">
-      <hr>
-    </article>
     
-     <hr>
+    <h2>One of my favorite words</h2>
+    <dl>
+      <dt>Nostalgia</dt>
+      <dd>In greek, "nostalgia" literally means "the pain from an old wound". It goes backwards and forwards, it take us to a place where we ache to go again </dd>
+    </dl>
+   
+
+    <hr>
+  
 
     <footer id="bottom">
-     <p>&copy; Andrea valentina moreno. All rights reserved</p>
-     <p><a href="#top">Top</a></p>
+      <p>&copy; Andrea valentina moreno. All rights reserved</p>
+      <p><a href="#top">Top</a></p>
     </footer>
-
-</body>
+  </body>
 </html>
