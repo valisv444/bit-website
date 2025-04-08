@@ -181,3 +181,15 @@ li {
  h3 {
     color: #d93bd1;
  }
+
+ .my-nav a {
+
+    margin-right: 150px;
+ }
+
+ #home-link {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    
+ }
