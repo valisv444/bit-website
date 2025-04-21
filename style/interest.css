@@ -238,7 +238,7 @@ p {
      /*Responsive 576px*/
     @media (max-width: 576px) {
         .aside-interest {
-            max-width: 130px;
+            min-width: 170px;
         }
     
         .main-interest {
