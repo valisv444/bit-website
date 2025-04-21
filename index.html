@@ -1,107 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal website</title>
-    <link
-      rel="shortcut icon"
-      href="./assets-1/favicon-1.jpg"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="shortcut icon" href="./assets/favicon-2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=IM+Fell+English+SC&family=Marcellus&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header id="top">
-      <h1>About me, Andrea</h1>
-    </header>
-    <hr />
-    <hr />
-    <nav>
-      <table width="100%">
-        <tr>
-          <td align="center"><a href="index.html">Home</a></td>
-          <td align="center">
-            <a href="personalinformationaboutme.html"
-              >Personal information about me</a
-            >
-          </td>
-          <td align="center"><a href="contact.html">Contact me</a></td>
-          <td align="center"><a href="myinterests.html">My interests</a></td>
-          <td align="center"><a href="#bottom">Bottom.</a></td>
-        </tr>
-      </table>
-    </nav>
-
-    <hr />
-    <hr />
-
-    <main>
-      <img src="./assets-1/gato-1.jpg" class="cat-photo" alt="My profile picture" />
-
-      <section>
-        <h2>What will you find on this site?</h2>
-        <p>
-          Here you can find personal information about me, my interests, how to contact me and some of my favourite pictures. Welcome
-        </p>
-      </section>
-    </main>
-
-    <hr />
-
-    <aside>
-      <h2>My first project</h2>
-
-       <aside class="photos-index">
-       <img src="./assets-1/purpple-1.jpg" alt="purple stained glass windows of a cathedral">
-       <img src="./assets-1/purpple-2.jpg" alt="blue background with yellow suns">
-       <img src="./assets-1/purpple-3.jpg" alt="Messy table with crystal ball">
-      </aside>
-
-       <hr>
-
-      <aside>
-        <section class="video-clara">
-        <h2>Clara bow's eyes</h2>
-        <video src="./assets-1/clara-1.mp4" controls></video>
-       </section>
-
-       <section class="audio-lovesong">
-        <h2>Lovesong-The cure</h2>
-        <audio src="./assets-1/The Cure - Lovesong.mp3" controls></audio>
-      </section>
-
-      <section class="iframe">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/uWAhd4KkVUU?si=KGkZnydwXGh8dIEz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </section>
-
-      </aside>
-      
-     <!--<form></form>-->
-     <!--<textarea></textarea>-->
-      
-    </aside>
-
-    <hr>
-
-    
-    <h2>One of my favorite words</h2>
-    <dl>
-      <dt>Nostalgia</dt>
-      <dd>In greek, "nostalgia" literally means "the pain from an old wound". It goes backwards and forwards, it take us to a place where we ache to go again </dd>
-    </dl>
    
 
-    <hr>
-  
+    <div class="layout">
 
-    <footer id="bottom">
+    <header>
+      <h1>About me, Andrea</h1>
+
+      <nav>
+
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact me</a>
+        <a href="my-interests.html">My interests</a>
+        
+        </nav>
+  
+    </header>
+    
+    
+   
+   
+    
+    <main>
+
+ <!--imagen de bienvenida-->
+ <div class="moon-text"><img src="./assets/moon-photo.jpg"  alt="photo of a window"> <p>Welcome</p></div>
+
+
+
+
+<!--carrousel separador-->
+<img src="./assets/carrousel-photo.png"  class="carrousel-photo"   alt="carrousel photo">
+
+
+
+ 
+
+    <!--primera seccion bloque acerca de mi-->
+    <section class="first-block">
+      <h2>who am I?</h2>
+
+      <img src="./assets/photo-cat.jpg"  class="cat-photo" alt="photo about a cat">
+
+      <p>Hello, I am Andrea Valentina Moreno Pardo. I am a student of the Bootcamp of Web Development and Programming at the BIT Institute. And this is my first website </p>
+    </section>
+
+    <!--segunda seccion bloque acerca de mi-->
+    <section class="second-block">
+     <h2>Information about me</h2>
+
+     <img src="./assets/stars-photo.jpg" alt="photo about some branches of a tree with stars on it">
+
+     <p>I'm a rather calm, quiet and introverted person. I was born on the 27th of July 2005, so I'm currently 19 years old. I have lived all my life in Bogotá, where I was born and where I still live.
+
+      I currently live alone with my grandmother, who has been a very important part of my life. My environment is simple, but this has given me the space to focus on my interests and grow in my own way.</p>
+
+    </section>
+
+      
+    <!--tercer bloque acerca de mi-->
+    <section class="third-block">
+     <h2>My experience</h2>
+
+     <img src="./assets/fairy-photo.jpg" alt="photo about fairies">
+
+     <p>I really don't have any experience in this area. I have never worked as a web developer or programmer. My goal was to study computer engineering, but due to economic issues I couldn't do it, but I found BIT Institute and it was the best option for me at the moment.</p>
+
+    </section>
+
+
+    <!--cuarto bloque acerca de mi-->
+    <section class="fourth-block">
+     <h2>Expectations</h2>
+
+     <img src="./assets/cat-moon-photo.jpg" alt="photo about a stained glass window with an image of a cat on a moon">
+
+     <p>I have always loved the world of technology, computers and programming. My expectations are that when I arrive at agaosto I will have acquired all the necessary knowledge, I will have learnt everything I need to know about programming in order to take my first steps towards what I want to practice.</p>
+
+
+    </section>
+
+
+    <!--quinto bloque acerca de mi-->
+    <section class="fifth-block">
+      <h2>Three extra things I love. A picture, a word and a song</h2>
+ 
+      <img src="./assets/cathedral-photo.jpg" alt="photo about a cathedral">
+ 
+      <h3>One of my favorite words</h3>
+      <dl>
+        <dt>Nostalgia</dt>
+        <dd>In greek, "nostalgia" literally means "the pain from an old wound". It goes backwards and forwards, it take us to a place where we ache to go again </dd>
+      </dl>
+ 
+      <h3>One of my favorite songs. Lovesong by The cure</h3>
+      <audio src="./assets/The Cure - Lovesong.mp3" controls></audio>
+ 
+ 
+     </section>
+    </main>
+
+
+
+     <aside>
+      
+     <img src="./assets/whimsigoth-3.jpg" alt="collage of lilac whimsigoth aesthetics">
+     <img src="./assets/whimsigoth-10.jpg" alt="collage of celeste whimsigoth aesthetics">
+     <img src="./assets/whimsigoth-9.jpg" alt="collage of purpple whimsigoth aesthetics">
+     
+     <section class="extra-stuff">
+    <p>
+        This website is heavily inspired by the whimsigoth aesthetic, mixing the dark and mystical of gothic with a touch of magic, fantasy and bohemian.
+    </p>  
+     </section>
+  </aside>
+   
+
+    <footer>
+
       <p>&copy; Andrea valentina moreno. All rights reserved</p>
-      <p><a href="#top">Top</a></p>
+
+      <div class="footer-icons">
+      <a href="https://www.instagram.com/kinmitti/" target="_blank">
+       <img src="./assets/instagram-logo.webp" alt="instagram logo">
+      </a>
+
+      <a href="https://github.com/valisv444" target="_blank">
+        <img src="./assets/github-logo.png" alt="github logo">
+      </a>
+    </div>
     </footer>
+  </div>
   </body>
 </html>
